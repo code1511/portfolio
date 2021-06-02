@@ -1,0 +1,89 @@
+@import "../../global.scss";
+
+.contact {
+  background-color: aliceblue;
+  .top {
+    width: 100%;
+    height: 85%;
+
+    .left {
+      width: 50%;
+      height: 90%;
+      float: left;
+      align-items: center;
+      h1{
+        text-align: center;
+        position: relative;
+        top: 55px;
+      }
+
+      .leftone {
+        align-items: center;
+        text-align: center;
+        position: relative;
+        color: black;
+        font: 1em sans-serif;
+        padding: 10px;
+        position: relative;
+        top: 65px;
+      }
+    }
+    .right {
+      width: 50%;
+      height: 90%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      form {
+        width: 70%;
+        height: 95%;
+        padding: 5px 5px;
+        background-color: violet;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        h2 {
+          font-size: 30px;
+          margin-bottom: 1px;
+        }
+        input {
+          width: 400px;
+          height: 30px;
+          font-size: 14px;
+          border: 1px solid greenyellow;
+        }
+        textarea {
+          width: 400px;
+          height: 200px;
+          font-size: 14px;
+          border: 1px solid greenyellow;
+        }
+        button {
+          width: 150px;
+          height: 30px;
+          color: white;
+          background-color: crimson;
+          border: none;
+          border-radius: 10px;
+          font-weight: 500;
+          cursor: pointer;
+          &:focus {
+            outline: none;
+          }
+        }
+        span {
+          color: green;
+        }
+      }
+    }
+  }
+  .down {
+    width: 100%;
+    height: 15%;
+    background-color: burlywood;
+    text-align: center;
+  }
+}
