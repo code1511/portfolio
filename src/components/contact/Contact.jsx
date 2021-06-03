@@ -39,7 +39,7 @@ export default function Contact() {
         </div>
       </div>
       <div className="down">
-        <p>made by anchal pandey</p>
+        <p>made with ❤️ by anchal pandey</p>
       </div>
     </div>
   );
