@@ -17,7 +17,7 @@ export default function Contact() {
           <h1>Info.</h1>
           <div className="leftone">
             <h4> ☎ My Contact Number</h4>
-            <p>(+91) 8924895591</p>
+            <p>(+91) xxxxxxxxx</p>
           </div>
           <div className="leftone">
             <h4>✉ My Email</h4>
